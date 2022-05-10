@@ -53,11 +53,27 @@ input[type="text"] {
 .d-flex.justify--space-between {
   justify-content: space-between;
 }
-
+.logo_email{
+  width: 50%;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.margin_iconemail{
+  align-items: center;
+}
 .pt-48 {
   padding-top: 48px;
 }
-
+.text_email{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 10px;
+}
+.font_email{
+  width: 26px;
+  height: 18px;
+}
 .pt-b-8 {
   padding-top: 8px;
   padding-bottom: 8px;
@@ -70,7 +86,16 @@ input[type="text"] {
 .mb-30 {
   margin-bottom: 30px;
 }
-
+.btn_contract{
+  height: 60px;
+  border-radius: 10px;
+  width: 55%;
+  margin-top: 15px;
+  margin-left: 20px;
+  cursor: pointer;
+  color: #353590;
+  font-weight: 700;
+}
 .sub-heading {
   font-size: 3rem;
   font-family: 'Inter', sans-serif;
@@ -89,7 +114,34 @@ input[type="text"] {
   line-height: 1.4;
   margin: 16px 0;
 }
-
+.text_header{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  width: 40%;
+}
+.content_header_right{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  width: 55%;
+  margin-left: 20px;
+}
+.text_header_right{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 50px;
+  width: 70%;
+  margin:0px 20px;
+}
+.img_header_left{
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
 .heading--white {
   color: var(--white);
 }
@@ -114,3 +166,109 @@ input[type="text"] {
   color: gray;
   background: var(--white);
 }
+.title_header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+
+.logo_slider, .logo1 {
+  list-style: none;
+  padding: 0;
+}
+
+.logo_slider {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+/* Đây là thủ thuật clearfix, ai chưa biết thì xem lại bài học CSS he */
+.logo_slider:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+.titlelogo{
+  font-size: 24px;
+  line-height: 30px;
+  align-items: center;
+}
+.contentlogo{
+  font-size: 14px;
+  line-height: 30px;
+  align-items: center;
+}
+#margin_title_header{
+  margin-top: 10%;
+}
+.header1{
+  height: 650px;
+  padding-top: 5px;
+}
+.logo_slider .logo1 {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px 0;
+  text-align: center;
+  width: 250px;
+}
+.textproduct{
+  margin-left: 26%;
+  color: #353590;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 50px;
+  margin-bottom: 0px;
+}
+.texttinhvan{
+  margin-left: 26%;
+  color: #2F80ED;
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+#logo2{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+@media only screen and (min-width: 100%) {
+  ul li:nth-child(4n){
+      margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 100%) and (min-width: 100%) {
+  ul li {
+      margin-right: 1%;
+      width: 32.6666%;
+  }
+
+  ul li:nth-child(3n){
+      margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  ul li {
+      margin-right: 2%;
+      width: 49%;
+  }
+
+  ul li:nth-child(2n){
+      margin-right: 0;
+  }
+}
+
+

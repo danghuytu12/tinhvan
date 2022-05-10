@@ -16,7 +16,31 @@
   height: 100vh;
   z-index: -1;
 }
-
+.logo_ourservice{
+  width: 500px;
+  height: 500px;
+}
+.style_logo_ourservice{
+  position: relative;
+  top: -70px;
+  left: 70px;
+}
+.content_dedicated{
+  width: 60%;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+.title_markets{
+  font-weight: 700;
+  font-size: 80px;
+  
+}
+.img_dedicated{
+  width: 50px;
+  height: 50px;
+}
 .header__nav-container {
   align-items: center;
 }
@@ -129,6 +153,19 @@
 .main {
   margin-top: 60px;
 }
+span.content_strengths--title{
+  display: block; 
+}
+.main_strangths--content {
+  text-align: center;
+  padding-top: 110px;
+}
+
+/* main strangths */
+
+.main_strangths {
+  height: 974px;
+}
 
 /* footer   */
 .footer {
@@ -139,6 +176,7 @@
   color: var(--orange);
   transition: 0.3s;
 }
+
 
 .footer__item + .footer__item {
   border-left: 1px solid var(--footer-clr);
