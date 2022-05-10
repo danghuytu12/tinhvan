@@ -243,7 +243,7 @@ input[type="text"] {
   
 }
 
-@media only screen and (min-width: 100%) {
+/* @media only screen and (min-width: 100%) {
   ul li:nth-child(4n){
       margin-right: 0;
   }
@@ -269,6 +269,6 @@ input[type="text"] {
   ul li:nth-child(2n){
       margin-right: 0;
   }
-}
+} */
 
 
